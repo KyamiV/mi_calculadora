@@ -21,3 +21,7 @@ if __name__ == "__main__":
     print(restar(5, 1))       # 4
     print(multiplicar(4, 2))  # 8
     print(dividir(10, 2))     # 5.0
+
+def potencia(a: float, b: float) -> float:
+    """Calcula a elevado a b."""
+    return a ** b
