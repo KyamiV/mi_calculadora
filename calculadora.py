@@ -25,3 +25,7 @@ if __name__ == "__main__":
 def potencia(a: float, b: float) -> float:
     """Calcula a elevado a b."""
     return a ** b
+
+def elevar_al_cubo(a: float) -> float:
+    """Eleva un número al cubo."""
+    return a ** 3
